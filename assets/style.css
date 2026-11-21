@@ -122,3 +122,7 @@ article h3{font:800 20px var(--disp);margin:26px 0 10px;color:var(--ink)}
 .pa{font-size:24px;color:var(--acc)}
 .bad .pa{color:#ff4d4d}
 .pair .cap{margin:14px 0 0;font-size:15px;color:#b9b9b0}
+
+.shot{margin:8px 0 22px}
+.shot img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:14px;margin:0}
+.shot figcaption{font-size:14px;color:#9a9a92;margin-top:10px;line-height:1.5}
