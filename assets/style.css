@@ -78,3 +78,13 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--mut);fon
 .sub{margin:48px 0 0;text-align:center;border:1px solid var(--line);background:var(--card);border-radius:18px;padding:28px 22px}
 .sub p{margin:0 0 16px;color:#dcdcd5}
 .sub .cta{margin-top:0}
+
+article ul{margin:0 0 20px;padding-left:22px;color:#dcdcd5}
+article li{margin:6px 0}
+.tblwrap{overflow-x:auto;margin:6px 0 20px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.tbl{width:100%;border-collapse:collapse;font-size:16px}
+.tbl th{font:700 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--acc);text-align:left;padding:14px 18px;border-bottom:1px solid var(--line)}
+.tbl td{padding:14px 18px;border-bottom:1px solid #ffffff10;color:#dcdcd5}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td:first-child{font-weight:600;color:var(--ink)}
+.tbl td:last-child{font:700 17px var(--disp);color:var(--acc)}
