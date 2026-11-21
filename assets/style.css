@@ -88,3 +88,17 @@ article li{margin:6px 0}
 .tbl tr:last-child td{border-bottom:0}
 .tbl td:first-child{font-weight:600;color:var(--ink)}
 .tbl td:last-child{font:700 17px var(--disp);color:var(--acc)}
+
+.car{margin:6px 0 22px}
+.car-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.car-track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 78%;scroll-snap-align:center;margin:0;border:1px solid var(--line);border-radius:16px;height:190px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.slide img{max-width:78%;max-height:62%;object-fit:contain;margin:0;border:0;border-radius:0;box-shadow:none}
+.slide figcaption{position:absolute;left:12px;bottom:10px;font:700 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#fff;background:#000c;padding:4px 8px;border-radius:6px}
+.car-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:12px}
+.car-b{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--acc);font-size:18px;cursor:pointer}
+.car-b:hover{border-color:var(--acc)}
+.car-dots{display:flex;gap:8px}
+.car-dots i{width:8px;height:8px;border-radius:50%;background:#ffffff30;display:block}
+.car-dots i.on{background:var(--acc)}
+@media(min-width:700px){.slide{flex-basis:46%}}
