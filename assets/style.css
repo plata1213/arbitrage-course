@@ -126,3 +126,16 @@ article h3{font:800 20px var(--disp);margin:26px 0 10px;color:var(--ink)}
 .shot{margin:8px 0 22px}
 .shot img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:14px;margin:0}
 .shot figcaption{font-size:14px;color:#9a9a92;margin-top:10px;line-height:1.5}
+
+.tbl-text td:last-child,.tbl-text td:nth-child(2){font:400 16px var(--sans,inherit);color:#dcdcd5}
+.tbl-text td:last-child{font-weight:700;color:var(--acc)}
+article a:not(.cta){color:var(--acc)}
+
+@media(max-width:600px){
+.tbl-text thead{display:none}
+.tbl-text,.tbl-text tbody,.tbl-text tr,.tbl-text td{display:block;width:100%}
+.tbl-text tr{padding:12px 4px;border-bottom:1px solid #ffffff10}
+.tbl-text tr:last-child{border-bottom:0}
+.tbl-text td{border:0!important;padding:6px 14px}
+.tbl-text td:before{content:attr(data-l);display:block;font:700 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#8a8a82;margin-bottom:3px}
+}
